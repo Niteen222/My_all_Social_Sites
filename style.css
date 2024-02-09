@@ -19,9 +19,24 @@ body{
     background-image: url(bg-img.jpg);
     background-size: cover;
 }
+h1{
+    font-size: 5rem;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+h1:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 5rem;
+    background-color: rgb(251, 103, 29);
+    padding: 30px;
+    border-radius: 20px;
+}
 .wrapper{
     display: inline-flex;
     list-style: none;
+    margin-top: -29rem;
 } 
 .wrapper .icon{
     position:relative;
